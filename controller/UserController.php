@@ -61,7 +61,7 @@ class UserController
             $_SESSION["user_image"] = $user["USER_IMAGE"];
 
             //Identificamos q tipo de usuario es, dependiendo de cual sea lo enviamos a un profile u otro.
-            if ($_SESSION['rol'] == 1) {
+            if ($_SESSION['ROL'] == 1) {
                 header("Location: ../view/profileadmin.php");
             } else {
                 header("Location: ../view/profile.php");
