@@ -8,6 +8,7 @@ $dbname = "mp0487_firalia";
 $username = "root"; //IMPORTANTE CAMBIAR , NO QUEREMOS ENTRAR CON ROOT
 $password = "";
 
+
 //Objeto mysqli
 
 $mysqli = new mysqli($host, $username, $password, $dbname);
